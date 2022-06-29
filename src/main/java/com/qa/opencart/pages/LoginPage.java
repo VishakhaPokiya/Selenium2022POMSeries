@@ -30,7 +30,7 @@ public class LoginPage{
 	private By errorMessage = By.xpath("//div[@class='alert alert-danger alert-dismissible']");
 	
 	//4. Page Actions
-	@Step("getting login page title...")
+	@Step("getting login page title value...")
 	public String getLoginPageTitle()
 	{
 		return eleUtil.doGetTitle(Constants.LOGIN_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
